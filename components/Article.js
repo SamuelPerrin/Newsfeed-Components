@@ -149,6 +149,9 @@ function articleMaker(articleData) {
 /*
   Step 4: Outside your function now, loop over the data. At each iteration you'll use your component
   to create a div.article element and append it to the DOM inside div.articles (see index.html).
+
+  Step 5: Try adding new article object to the data array. Make sure it is in the same format as the others.
+  Refresh the page to see the new article.
 */
 
 data.push({
@@ -160,8 +163,3 @@ data.push({
 })
 
 data.forEach(articleObj => document.querySelector('.articles').appendChild(articleMaker(articleObj)))
-
-/*
-  Step 5: Try adding new article object to the data array. Make sure it is in the same format as the others.
-  Refresh the page to see the new article.
-*/
