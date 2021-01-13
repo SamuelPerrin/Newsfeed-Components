@@ -40,7 +40,6 @@ function menuMaker (menuItems) {
   Step 3: Still inside your function, select from the DOM the menu button (the element with a class of 'menu-button').
 */
   const menuButton = document.querySelector('.menu-button');
-  menuButton.style.backgroundColor = 'black'
 
 /*
   Step 4: Add a click event listener to the menu button. When clicked it should toggle the class 'menu--open' on div.menu (your div with a 'menu' class).

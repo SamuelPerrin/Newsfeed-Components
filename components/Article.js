@@ -86,6 +86,20 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title:'Test',
+    date:'Jan 1st, 2021',
+    firstParagraph:'This is the first paragraph.',
+    secondParagraph:'This is the second paragraph.',
+    thirdParagraph:'This is the third paragraph.'
+  },
+  {
+    title:"Another Sample Article",
+    date:'Feb 31st, 202020',
+    firstParagraph:'This is the content of the first paragraph.',
+    secondParagraph:'There is also a second paragraph.',
+    thirdParagraph:'You are reading the third paragraph now.'
   }
 ];
 
@@ -154,12 +168,6 @@ function articleMaker(articleData) {
   Refresh the page to see the new article.
 */
 
-data.push({
-  title:'Test',
-  date:'January 1, 2021',
-  firstParagraph:'This is the first paragraph.',
-  secondParagraph:'This is the second paragraph',
-  thirdParagraph:'This is the third paragraph'
-})
+data.push()
 
 data.forEach(articleObj => document.querySelector('.articles').appendChild(articleMaker(articleObj)))
